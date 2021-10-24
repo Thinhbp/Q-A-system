@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Question & Answer System</title>
+    <style>
+
+    </style>
+</head>
+<body>
+      <div class="header">QUESTION AND ANSWER SYSTEM</div>
+      <div class="input-paragraph">INPUT YOUR PARAGRAPH</div>
+      <div>
+          <form action="/" method="post" >
+               <input class="paragraph" ID="paragraph" type="text" name="paragraph" required="required" placeholder="paragraph" >
+               <input class="question" type="text" name="question" required="required" placeholder="question">
+               <input type="submit" class="button"> </input>
+          </form>
+      </div>
+
+      <div class="paragraph_result">Paragraph: {{paragraph}}</div>
+      <div class="question_result">Question: {{question}}</div>
+      <p class="ket-qua">Result {{result}} </p>
+
+</body>
+</html>
